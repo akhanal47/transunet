@@ -1,0 +1,7 @@
+tensorflow-addons
+validators
+tensorflow
+matplotlib
+scipy
+opencv-python
+scikit-learn
