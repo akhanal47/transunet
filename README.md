@@ -15,7 +15,7 @@ But due to instrinsic locality of convolution operations, U-net demonstrates lim
 Original TransUnet Paper: [TransUNet](https://arxiv.org/pdf/2102.04306.pdf)
 
 
-This repo contains two variations of the Unet studied on the Original Paper
+This repo contains two variations of the Unet studied on the Original Paper. Both of these are written using Keras Library
 
 1. Resnet50 based Unet
 > This variation of Unet uses a pretrained (trained on Imagenet) Resnet50 network as the encoder.
@@ -26,3 +26,12 @@ Necessary Libraries are mentioned on the requirements.txt file
 
 Datset Used:
 [Breast Ultrasound Images Dataset](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset)
+
+The implementation of TranUnet employes the use of a pretrained RensNet50 model (trained on Imagenet) and a ViT for encoding process as shown in the figure above. The weights of ResNet50 are frozen for training while ViT is trained.
+
+
+****
+
+Test folder contains a test TransUnet architecture tested on a different dataset from Kaggle: 
+[Data Science Bowl 2018](https://www.kaggle.com/competitions/data-science-bowl-2018/overview)
+
