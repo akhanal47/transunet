@@ -13,8 +13,8 @@ But due to instrinsic locality of convolution operations, U-net demonstrates lim
 
 This repo contains two variations of the Unet studied on the Original Paper
 
-1.Resnet50 based Unet
-2.TransUnet
+1. Resnet50 based Unet
+2. TransUnet
 
 Necessary Libraries are mentioned on the requirements.txt file
->pip install -r requirements.txt
+> pip install -r requirements.txt
