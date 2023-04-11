@@ -18,6 +18,7 @@ Original TransUnet Paper: [TransUNet](https://arxiv.org/pdf/2102.04306.pdf)
 This repo contains two variations of the Unet studied on the Original Paper
 
 1. Resnet50 based Unet
+> This variation of Unet uses a pretrained (trained on Imagenet) Resnet50 network as the encoder.
 2. TransUnet
 
 Necessary Libraries are mentioned on the requirements.txt file
